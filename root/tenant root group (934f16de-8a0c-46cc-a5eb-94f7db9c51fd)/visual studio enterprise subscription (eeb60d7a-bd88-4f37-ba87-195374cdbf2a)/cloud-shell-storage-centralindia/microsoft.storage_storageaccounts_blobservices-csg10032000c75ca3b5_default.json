@@ -11,7 +11,7 @@
   "resources": [
     {
       "type": "Microsoft.Storage/storageAccounts/blobServices",
-      "apiVersion": "2021-08-01",
+      "apiVersion": "2021-09-01",
       "name": "csg10032000c75ca3b5/default",
       "sku": {
         "name": "Standard_GRS",
@@ -22,6 +22,7 @@
           "corsRules": []
         },
         "deleteRetentionPolicy": {
+          "allowPermanentDelete": false,
           "enabled": false
         }
       }
