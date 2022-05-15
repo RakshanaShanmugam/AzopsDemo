@@ -20,7 +20,7 @@
           {
             "name": "RDP",
             "id": "/subscriptions/eeb60d7a-bd88-4f37-ba87-195374cdbf2a/resourceGroups/biceptest/providers/Microsoft.Network/networkSecurityGroups/testvm012-nsg/securityRules/RDP",
-            "etag": "W/\"66471c32-4544-4ae1-acea-4f7743fbc70a\"",
+            "etag": "W/\"ad302aae-d2f4-40e4-b40a-e938b83f89ff\"",
             "type": "Microsoft.Network/networkSecurityGroups/securityRules",
             "properties": {
               "provisioningState": "Succeeded",
@@ -43,7 +43,7 @@
           {
             "name": "AllowVnetInBound",
             "id": "/subscriptions/eeb60d7a-bd88-4f37-ba87-195374cdbf2a/resourceGroups/biceptest/providers/Microsoft.Network/networkSecurityGroups/testvm012-nsg/defaultSecurityRules/AllowVnetInBound",
-            "etag": "W/\"66471c32-4544-4ae1-acea-4f7743fbc70a\"",
+            "etag": "W/\"ad302aae-d2f4-40e4-b40a-e938b83f89ff\"",
             "type": "Microsoft.Network/networkSecurityGroups/defaultSecurityRules",
             "properties": {
               "provisioningState": "Succeeded",
@@ -65,7 +65,7 @@
           {
             "name": "AllowAzureLoadBalancerInBound",
             "id": "/subscriptions/eeb60d7a-bd88-4f37-ba87-195374cdbf2a/resourceGroups/biceptest/providers/Microsoft.Network/networkSecurityGroups/testvm012-nsg/defaultSecurityRules/AllowAzureLoadBalancerInBound",
-            "etag": "W/\"66471c32-4544-4ae1-acea-4f7743fbc70a\"",
+            "etag": "W/\"ad302aae-d2f4-40e4-b40a-e938b83f89ff\"",
             "type": "Microsoft.Network/networkSecurityGroups/defaultSecurityRules",
             "properties": {
               "provisioningState": "Succeeded",
@@ -87,7 +87,7 @@
           {
             "name": "DenyAllInBound",
             "id": "/subscriptions/eeb60d7a-bd88-4f37-ba87-195374cdbf2a/resourceGroups/biceptest/providers/Microsoft.Network/networkSecurityGroups/testvm012-nsg/defaultSecurityRules/DenyAllInBound",
-            "etag": "W/\"66471c32-4544-4ae1-acea-4f7743fbc70a\"",
+            "etag": "W/\"ad302aae-d2f4-40e4-b40a-e938b83f89ff\"",
             "type": "Microsoft.Network/networkSecurityGroups/defaultSecurityRules",
             "properties": {
               "provisioningState": "Succeeded",
@@ -109,7 +109,7 @@
           {
             "name": "AllowVnetOutBound",
             "id": "/subscriptions/eeb60d7a-bd88-4f37-ba87-195374cdbf2a/resourceGroups/biceptest/providers/Microsoft.Network/networkSecurityGroups/testvm012-nsg/defaultSecurityRules/AllowVnetOutBound",
-            "etag": "W/\"66471c32-4544-4ae1-acea-4f7743fbc70a\"",
+            "etag": "W/\"ad302aae-d2f4-40e4-b40a-e938b83f89ff\"",
             "type": "Microsoft.Network/networkSecurityGroups/defaultSecurityRules",
             "properties": {
               "provisioningState": "Succeeded",
@@ -131,7 +131,7 @@
           {
             "name": "AllowInternetOutBound",
             "id": "/subscriptions/eeb60d7a-bd88-4f37-ba87-195374cdbf2a/resourceGroups/biceptest/providers/Microsoft.Network/networkSecurityGroups/testvm012-nsg/defaultSecurityRules/AllowInternetOutBound",
-            "etag": "W/\"66471c32-4544-4ae1-acea-4f7743fbc70a\"",
+            "etag": "W/\"ad302aae-d2f4-40e4-b40a-e938b83f89ff\"",
             "type": "Microsoft.Network/networkSecurityGroups/defaultSecurityRules",
             "properties": {
               "provisioningState": "Succeeded",
@@ -153,7 +153,7 @@
           {
             "name": "DenyAllOutBound",
             "id": "/subscriptions/eeb60d7a-bd88-4f37-ba87-195374cdbf2a/resourceGroups/biceptest/providers/Microsoft.Network/networkSecurityGroups/testvm012-nsg/defaultSecurityRules/DenyAllOutBound",
-            "etag": "W/\"66471c32-4544-4ae1-acea-4f7743fbc70a\"",
+            "etag": "W/\"ad302aae-d2f4-40e4-b40a-e938b83f89ff\"",
             "type": "Microsoft.Network/networkSecurityGroups/defaultSecurityRules",
             "properties": {
               "provisioningState": "Succeeded",
@@ -171,11 +171,6 @@
               "sourceAddressPrefixes": [],
               "destinationAddressPrefixes": []
             }
-          }
-        ],
-        "networkInterfaces": [
-          {
-            "id": "/subscriptions/eeb60d7a-bd88-4f37-ba87-195374cdbf2a/resourceGroups/biceptest/providers/Microsoft.Network/networkInterfaces/testvm012181"
           }
         ],
         "subnets": [

@@ -11,18 +11,16 @@
   "resources": [
     {
       "type": "Microsoft.Authorization/policyAssignments",
-      "name": "09a21b647f8d4656b73960ba",
+      "name": "0755f14b59d94d51ab7a5789",
       "apiVersion": "2021-06-01",
       "location": null,
       "properties": {
-        "Scope": "/subscriptions/eeb60d7a-bd88-4f37-ba87-195374cdbf2a",
-        "NotScopes": [
-          "/subscriptions/eeb60d7a-bd88-4f37-ba87-195374cdbf2a/resourceGroups/cloud-shell-storage-centralindia"
-        ],
-        "DisplayName": "testpolicy",
-        "Description": "",
+        "Scope": "/providers/Microsoft.Management/managementGroups/934f16de-8a0c-46cc-a5eb-94f7db9c51fd",
+        "NotScopes": [],
+        "DisplayName": "Storage account keys should not be expired",
+        "Description": null,
         "EnforcementMode": "Default",
-        "PolicyDefinitionId": "/subscriptions/eeb60d7a-bd88-4f37-ba87-195374cdbf2a/providers/Microsoft.Authorization/policyDefinitions/2adcfb97-90b0-4f5c-90e3-8b9c674d3ac3",
+        "PolicyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/044985bb-afe1-42cd-8a36-9d5d42424537",
         "Parameters": {},
         "NonComplianceMessages": []
       }
